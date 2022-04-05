@@ -10,13 +10,7 @@ document
     toggleTheme("dark");
   });
 
-const cast = [
-  "Cumpadi Uóshito",
-  "Beto Jamaica",
-  "Sheila Mello",
-  "Jacaré",
-  "Sheila Carvalho",
-];
+const cast = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
 
 const castList = document.querySelector(".cast");
 
