@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  transition: 0.3s ease-in;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+main {
+  max-width: 800px;
+  min-height: 100vh;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+}
+
+main:hover {
+  border: 1px solid #ccc;
+}
+
+nav button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  transition: 0.2s ease-in;
+}
+
+nav button:hover {
+  padding: 5px 10px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  gap: 1rem;
+  margin: 2rem auto;
+}
+
+li {
+  text-align: center;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+article {
+  margin: 1rem 0;
+}
+
+article h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+article p {
+  text-align: justify;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #333;
+}
+
+.dark main {
+  background-color: #222;
+  color: #fff;
+}
+.dark nav button {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Unicorn Theme */
+
+.unicorn {
+  background-color: #ebfdff;
+}
+
+.unicorn nav button {
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  transition: 0.2s ease-in;
+}
